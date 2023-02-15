@@ -6,4 +6,5 @@ count = 0
 while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
     count = count +1
-    print("received message: %s %f" % data % count)
+    print("received message: %s" % data)
+    print(count)
